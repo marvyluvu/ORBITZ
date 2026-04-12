@@ -19,10 +19,7 @@ The brains of the operation is the Raspberry pi zero, it pulls telemetry data vi
 Plug it into usb c, Connect it to wifi, and it shows satellites passing over your location
 using the rotary dial and the button, you can scroll through targets and select them
 
-
-#5. BOM
-
-#6. Images
+#5. Images
 
 <img width="1264" height="845" alt="image" src="https://github.com/user-attachments/assets/6e451003-8fb4-4725-b2a3-801bbe2fdba1" />
 
