@@ -29,5 +29,5 @@ SCHEMATIC
 
 PCB
 
-<img width="710" height="594" alt="image" src="https://github.com/user-attachments/assets/265c42d4-e668-49fd-a0c5-7231dea30562" />
-<img width="1255" height="819" alt="image" src="https://github.com/user-attachments/assets/e4c49285-2632-43b2-87b9-ad12b593ebe2" />
+<img width="1033" height="834" alt="image" src="https://github.com/user-attachments/assets/92eef387-b6f6-42ae-8978-50c9788c3a0a" />
+<img width="1041" height="852" alt="image" src="https://github.com/user-attachments/assets/312d3a82-5b0c-4595-acbe-86d1907e0033" />
