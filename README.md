@@ -22,5 +22,9 @@ using the rotary dial and the button, you can scroll through targets and select 
 #5. Images
 
 SCHEMATIC
+<img width="595" height="804" alt="image" src="https://github.com/user-attachments/assets/14fad17f-5959-4145-98ed-35a3368faf81" />
+<img width="389" height="532" alt="image" src="https://github.com/user-attachments/assets/6b65be36-b3ad-477c-89bb-23e1ad3f0350" />
 
 PCB
+<img width="800" height="678" alt="image" src="https://github.com/user-attachments/assets/346b7383-359c-4198-bef0-2d942cd7b54c" />
+<img width="1084" height="730" alt="image" src="https://github.com/user-attachments/assets/71cb1e1f-1815-4fb6-aab1-7987cebb95c9" />
