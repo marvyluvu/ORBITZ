@@ -1,6 +1,26 @@
 # ORBITZ
-A desktop and portable satellite tracker
 
+<p align="center">
+  <img width="595" height="804" alt="image" src="https://github.com/user-attachments/assets/14fad17f-5959-4145-98ed-35a3368faf81" />
+</p>
+
+<p align="center">
+  A desktop and portable satellite tracker
+</p>
+
+<p align="center">
+  <a href="#1-what-is-orbitz">What is ORBITZ</a>
+  &nbsp;|&nbsp;
+  <a href="#2-why-did-i-make-it">Why did I make it?</a>
+  &nbsp;|&nbsp;
+  <a href="#3-how-does-it-work">How does it work?</a>
+  &nbsp;|&nbsp;
+  <a href="#4-how-do-you-use-it">How do you use it?</a>
+  &nbsp;|&nbsp;
+  <a href="#5-images">Images</a>
+</p>
+
+---
 
 #1. What is ORBITZ
 
@@ -21,13 +41,28 @@ using the rotary dial and the button, you can scroll through targets and select 
 
 #5. Images
 
+<p align="center">
+  <img width="595" height="804" alt="image" src="https://github.com/user-attachments/assets/14fad17f-5959-4145-98ed-35a3368faf81" />
+</p>
 
-<img width="595" height="804" alt="image" src="https://github.com/user-attachments/assets/14fad17f-5959-4145-98ed-35a3368faf81" />
-<img width="389" height="532" alt="image" src="https://github.com/user-attachments/assets/6b65be36-b3ad-477c-89bb-23e1ad3f0350" />
+<p align="center">
+  <img width="389" height="532" alt="image" src="https://github.com/user-attachments/assets/6b65be36-b3ad-477c-89bb-23e1ad3f0350" />
+</p>
 
 SCHEMATIC
 
-<img width="800" height="678" alt="image" src="https://github.com/user-attachments/assets/346b7383-359c-4198-bef0-2d942cd7b54c" />
-<img width="1084" height="730" alt="image" src="https://github.com/user-attachments/assets/71cb1e1f-1815-4fb6-aab1-7987cebb95c9" />
+<p align="center">
+  <img width="800" height="678" alt="image" src="https://github.com/user-attachments/assets/346b7383-359c-4198-bef0-2d942cd7b54c" />
+</p>
+
+<p align="center">
+  <img width="1084" height="730" alt="image" src="https://github.com/user-attachments/assets/71cb1e1f-1815-4fb6-aab1-7987cebb95c9" />
+</p>
 
 PCB
+
+<!-- Add PCB images here when ready, for example:
+<p align="center">
+  <img width="800" alt="ORBITZ PCB front" src="...">
+</p>
+-->
