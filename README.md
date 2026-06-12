@@ -32,7 +32,7 @@ I personally love astronomy and being able to stargaze outside with the stars, b
 
 #3. How does it work?
 
-The brains of the operation is the Raspberry pi zero, it pulls telemetry data via CelesTrak, skyfield calculates the passes and it gets displayed on the round screen (GC9A01) and the led ring alerts you alongside buzzing with the built in buzzer, to make sure you dont miss it.
+The brains of the operation is the Raspberry pi zero, it pulls telemetry data via CelesTrak, skyfield calculates the passes and it gets displayed on the screen and the led halo alerts you alongside buzzing with the built in buzzer, to make sure you dont miss it.
 
 #4. How do you use it?
 
