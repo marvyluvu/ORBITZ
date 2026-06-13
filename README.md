@@ -1,7 +1,7 @@
 # ORBITZ
 
 <p align="center">
-  <img width="595" height="804" alt="image" src="https://github.com/user-attachments/assets/14fad17f-5959-4145-98ed-35a3368faf81" />
+  <img width="1410" height="2000" alt="ORBITZ" src="https://github.com/user-attachments/assets/9952c8dc-de31-4c0b-a54a-12aaf74de1ed" />
 </p>
 
 <p align="center">
