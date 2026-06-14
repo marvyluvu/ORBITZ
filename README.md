@@ -42,8 +42,9 @@ using the rotary dial and the button, you can scroll through targets and select 
 </p>
 
 ---
-
-<h2>#5. Images</h2>
+<h2>#5. Firmware
+  
+<h2>#6. Images</h2>
 
 <table>
   <tr>
