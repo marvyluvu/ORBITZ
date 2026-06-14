@@ -11,7 +11,7 @@
 
 ---
 
-<h2>  1. What is ORBITZ</h2>
+#  1. What is ORBITz
 
 <p>
 Its a desktop satellite, Plane and ISS tracker, it has a radar style round display, LED notifying ring, accurate satellite tracking and adaptable to any location you use it in!!
@@ -19,7 +19,7 @@ Its a desktop satellite, Plane and ISS tracker, it has a radar style round displ
 
 ---
 
-<h2>  2. Why did I make it?</h2>
+#  2. Why did I make it?
 
 <p>
 I personally love astronomy and being able to stargaze outside with the stars, but I could never catch a satellite or the ISS due to how fast they orbit, so when I heard of FALLOUT by hackclub, I saw this as the perfect opportunity to work and bring my idea to life!!
@@ -27,7 +27,7 @@ I personally love astronomy and being able to stargaze outside with the stars, b
 
 ---
 
-<h2>  3. How does it work?</h2>
+#  3. How does it work?
 
 <p>
 The brains of the operation is the Raspberry pi zero, it pulls telemetry data via CelesTrak, skyfield calculates the passes and it gets displayed on the screen and the led halo alerts you alongside buzzing with the built in buzzer, to make sure you dont miss it.
@@ -35,15 +35,29 @@ The brains of the operation is the Raspberry pi zero, it pulls telemetry data vi
 
 ---
 
-<h2>  4. How do you use it?</h2>
+#  4. How do you use it?
 
 <p>
 Plug it into usb c, Connect it to wifi, and it shows satellites and planes passing over your location
 using the rotary dial and the button, you can scroll through targets and select them
+
+Assembly:
+
+First print the enclosure, and order all the items in the BOM.
+Insert heat inserts in all screw standoffs.
+insert battery into pcb.
+insert pcb into enclosure, and make sure the battery is UNDER the pcb.
+screw in pcb board.
+attach screen with screws (MAKE SURE ITS ORIENTED PROPERLY with the row of pins pointing upwards
+insert joystick and wire to the pcb
+cut rgb strip to size, then stick near the top of the enclosure.
+wire rgb strip to pcb board.
+Attach acrylic lid and back.
+connect to power, flash firmware and enjoy!
 </p>
 
 ---
-<h2>  5. Firmware </h2>
+#  5. Firmware 
   **WARNING**: CURRENT FIRMWARE IS MOCK/ TESTING REASONS ONLY
   Runs on any pc or rpi, without the custom pcb or display
   
@@ -57,7 +71,7 @@ using the rotary dial and the button, you can scroll through targets and select 
 - Press `m` then Enter to switch modes (PLANES / ISS).
 - Press `q` then Enter to quit.
   
-<h2>  6. Images</h2>
+#  6. Images
 
 <table>
   <tr>
@@ -83,7 +97,7 @@ using the rotary dial and the button, you can scroll through targets and select 
   </tr>
 </table>
 
-<h2>  7. Bill of Materials (BOM) </h2>
+#  7. Bill of Materials (BOM) 
  
 The full detailed BOM is included in this repository:
 
