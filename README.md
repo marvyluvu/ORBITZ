@@ -87,7 +87,7 @@ using the rotary dial and the button, you can scroll through targets and select 
  
 The full detailed BOM is included in this repository:
 
-- [`/ORBITZ_BILL_OF_MATERIALS.csv`](https://github.com/marvyluvu/ORBITZ/blob/main/ORBITZ%20BILL%20OF%20MATERIALS.csv)
+- [`/ORBITZ_BILL_OF_MATERIALS.csv`](https://github.com/marvyluvu/ORBITZ/blob/main/hardware/BOM.csv)
 
 You can open this file in Excel, Google Sheets, or any spreadsheet tool.  
 It includes part names, descriptions, quantities, prices, and direct purchase links.
