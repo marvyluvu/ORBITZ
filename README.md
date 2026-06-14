@@ -81,3 +81,22 @@ using the rotary dial and the button, you can scroll through targets and select 
     </td>
   </tr>
 </table>
+
+<h2># 7. Bill of Materials (BOM) </h2>
+
+The full detailed BOM is included in this repository:
+
+- [`/ORBITZ_BILL_OF_MATERIALS.csv`](https://github.com/marvyluvu/ORBITZ/blob/main/ORBITZ%20BILL%20OF%20MATERIALS.csv)
+
+You can open this file in Excel, Google Sheets, or any spreadsheet tool.  
+It includes part names, descriptions, quantities, prices, and direct purchase links.
+
+### Key components
+
+| Product name          | Description                                      | Qty |
+|-----------------------|--------------------------------------------------|-----|
+| Raspberry Pi Zero 2W  | Main computer, runs satellite tracking software | 1   |
+| 2.4\" NO TOUCH ILI9341| SPI LCD display for Orbitz radar UI             | 1   |
+| WS2812B LED STRIP     | Internal RGB status lighting (1 m)              | 1   |
+| TP4056 LiPo charger   | Charges LiPo battery from USB‑C                 | 1   |
+| MT3608 boost converter| Boosts 3.7 V LiPo to 5 V for Pi                 | 1   |
