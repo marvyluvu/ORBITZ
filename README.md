@@ -39,22 +39,22 @@ The brains of the operation is the Raspberry pi zero, it pulls telemetry data vi
 
 <p>
 Plug it into usb c, Connect it to wifi, and it shows satellites and planes passing over your location
-using the rotary dial and the button, you can scroll through targets and select them
+using the rotary dial and the button, you can scroll through targets and select them</p>
 
 Assembly:
 
-First print the enclosure, and order all the items in the BOM.
-Insert heat inserts in all screw standoffs.
-insert battery into pcb.
-insert pcb into enclosure, and make sure the battery is UNDER the pcb.
-screw in pcb board.
-attach screen with screws (MAKE SURE ITS ORIENTED PROPERLY with the row of pins pointing upwards
-insert joystick and wire to the pcb
-cut rgb strip to size, then stick near the top of the enclosure.
-wire rgb strip to pcb board.
-Attach acrylic lid and back.
-connect to power, flash firmware and enjoy!
-</p>
+1. First print the enclosure, and order all the items in the BOM.
+2. Insert heat inserts in all screw standoffs.
+3. insert battery into pcb.
+4. insert pcb into enclosure, and make sure the battery is UNDER the pcb.
+5. screw in pcb board.
+6. attach screen with screws (MAKE SURE ITS ORIENTED PROPERLY with the row of pins pointing upwards
+7. insert joystick and wire to the pcb
+8. cut rgb strip to size, then stick near the top of the enclosure.
+9. wire rgb strip to pcb board.
+10. Attach acrylic lid and back.
+11. connect to power, flash firmware and enjoy!
+
 
 ---
 #  5. Firmware 
