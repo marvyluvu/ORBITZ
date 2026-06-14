@@ -43,6 +43,16 @@ using the rotary dial and the button, you can scroll through targets and select 
 
 ---
 <h2>#5. Firmware
+  **CURRENT FIRMWARE IS MOCK/ TESTING REASONS ONLY**
+  instructions for use
+  1. open terminal in the root folder (orbitz_firmware)
+  2. python -m venv .venv
+  3. .\.venv\Scripts\Activate.ps1
+  4. pip install -r requirements.txt
+  5. python main.py
+  
+- Press `m` then Enter to switch modes (PLANES / ISS).
+- Press `q` then Enter to quit.
   
 <h2>#6. Images</h2>
 
