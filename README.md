@@ -72,6 +72,30 @@ Assembly:
 
 ##  6. Images
 
+<table>
+  <tr>
+    <td align="center">
+      <strong>FINAL PCB SCREENSHOTS</strong><br><br>
+      <img width="400" alt="FINAL PCB SCREENSHOTS"
+        src="https://github.com/user-attachments/assets/bd019cbe-858b-401e-93b5-4572d05ddfc6" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>PCB</strong><br><br>
+      <img width="400" alt="PCB"
+        src="https://github.com/user-attachments/assets/b6102816-e6c7-4078-b330-d672943b4513" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>FINAL BUILD</strong><br><br>
+      <img width="300" alt="FINAL BUILD"
+        src="https://github.com/user-attachments/assets/b351456f-1b2b-45ee-8724-4b84135ccd16" />
+    </td>
+  </tr>
+</table>
+
 ##  7. Bill of Materials (BOM)
 
 The full detailed BOM is included in this repository:
