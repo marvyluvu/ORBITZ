@@ -34,7 +34,17 @@ The brains of the operation is the Raspberry pi zero, it pulls telemetry data vi
 
 ---
 
-##  4. How do you use it?
+##  4.Hardware schematic
+
+<p>
+You can view the full schematic for the ORBITZ PCB below.
+  
+![ORBITZ schematic](hardware/orbitz_schematic.svg)
+</p>
+
+---
+
+##  5. How do you use it?
 
 <p>
 Plug it into usb c, Connect it to wifi, and it shows satellites and planes passing over your location
@@ -56,7 +66,7 @@ Assembly:
 
 ---
 
-##  5. Firmware
+##  6. Firmware
   **WARNING**: CURRENT FIRMWARE IS MOCK/ TESTING REASONS ONLY
   Runs on any pc or rpi, without the custom pcb or display
 
@@ -70,7 +80,7 @@ Assembly:
 - Press `m` then Enter to switch modes (PLANES / ISS).
 - Press `q` then Enter to quit.
 
-##  6. Images
+##  7. Images
 
 <table>
   <tr>
@@ -96,7 +106,7 @@ Assembly:
   </tr>
 </table>
 
-##  7. Bill of Materials (BOM)
+##  8. Bill of Materials (BOM)
 
 The full detailed BOM is included in this repository:
 
