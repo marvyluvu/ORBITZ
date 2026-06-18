@@ -64,6 +64,11 @@ Assembly:
 10. Attach acrylic lid and back.
 11. connect to power, flash firmware and enjoy!
 
+## ASSEMBLED DESIGN 
+Below is what your fully assembled design should look like.
+
+![ORBITZ enclosure interior](hardware/orbitz_case_interior.png)  
+
 ---
 
 ##  6. Firmware
