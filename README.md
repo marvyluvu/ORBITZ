@@ -13,7 +13,7 @@
 ##  1. What is ORBITZ
 
 <p>
-Its a desktop satellite, Plane and ISS tracker, it has a radar style round display, LED notifying ring, accurate satellite tracking and adaptable to any location you use it in!!
+Orbit is a desktop satellite, plane, and ISS tracker with a radar-style display, LED halo, live ADS-B plane data, and GPS aware tracking
 </p>
 
 ---
@@ -29,7 +29,13 @@ I personally love astronomy and being able to stargaze outside with the stars, b
 ##  3. How does it work?
 
 <p>
-The brains of the operation is the Raspberry pi zero, it pulls telemetry data via CelesTrak, skyfield calculates the passes and it gets displayed on the screen and the led halo alerts you alongside buzzing with the built in buzzer, to make sure you dont miss it.
+The brains of the operation is a Raspberry Pi Zero 2W. 
+    It:
+
+    Fetches TLEs from CelesTrak and uses Skyfield to compute live satellite and ISS passes.
+    Reads your location from GPSD (USB GPS) or falls back to a configured location.
+    Receives live ADS‑B aircraft data either from a local RTL‑SDR + dump1090 or from the OpenSky API.
+    The display shows a radar view, the LED halo indicates visibility, and the buzzer alerts you before passes so you don’t miss them.
 </p>
 
 ---
@@ -48,7 +54,12 @@ You can view the full schematic for the ORBITZ PCB below.
 
 <p>
 Plug it into usb c, Connect it to wifi, and it shows satellites and planes passing over your location
-using the rotary dial and the button, you can scroll through targets and select them</p>
+using the rotary dial and the button, you can scroll through targets and select them
+
+If you plug in the USB GPS AND SDR DONGLE, Orbitz will automagically :
+use gpsd for your location
+use live ADS-B data from planes flying nearby for fully local tracking (or fall back to Opensky if no receiver is present)
+</p>
 
 Assembly:
 
@@ -62,7 +73,9 @@ Assembly:
 8. cut rgb strip to size, then stick near the top of the enclosure.
 9. wire rgb strip to pcb board.
 10. Attach acrylic lid and back.
-11. connect to power, flash firmware and enjoy!
+11. using super glue, attach the usb hub to the slot.
+12. connect both the GPS and SDR dongle to the usb hub.
+13. connect to power, flash firmware and enjoy!
 
 ## ASSEMBLED DESIGN 
 Below is what your fully assembled design should look like.
@@ -71,19 +84,37 @@ Below is what your fully assembled design should look like.
 
 ---
 
-##  6. Firmware
-  **WARNING**: CURRENT FIRMWARE IS MOCK/ TESTING REASONS ONLY
-  Runs on any pc or rpi, without the custom pcb or display
+## 6. Firmware
 
-  How to run (Windows / PowerShell)
-  1) open terminal in the root folder (firmware)
-  2) python -m venv .venv
-  3) .\.venv\Scripts\Activate.ps1
-  4) pip install -r requirements.txt
-  5) python main.py
+There are two ways to run ORBITZ:
 
-- Press `m` then Enter to switch modes (PLANES / ISS).
-- Press `q` then Enter to quit.
+### 6.1 Desktop/mock firmware (no hardware required)
+
+This runs the radar UI in a Pygame window on any PC or Pi, using mock drivers instead of the real display, LEDs, and buttons.
+
+How to run (Windows / PowerShell):
+
+1. Open a terminal in the `firmware` folder.
+2. `python -m venv .venv`
+3. `.\.venv\Scripts\Activate.ps1`
+4. `pip install -r requirements.txt`
+5. `python main.py`
+
+Controls in mock mode:
+
+- `m` + Enter: toggle between PLANES and SATS/ISS modes.
+- `j` / `k` + Enter: move selection to next/previous target.
+- `q` + Enter: quit.
+
+### 6.2 Hardware firmware (Pi + PCB)
+
+On the Pi Zero 2W with the ORBITZ PCB attached:
+
+- The display shows the radar UI.
+- The rotary encoder controls target selection.
+- The encoder button toggles modes.
+- The LED halo and buzzer reflect visibility/alerts.
+- GPSD and dump1090/readsb are used automatically if available.
 
 ##  7. Images
 
@@ -127,5 +158,5 @@ Key components
 | Raspberry Pi Zero 2W  | Main computer, runs satellite tracking software  | 1   |
 | 2.4" NO TOUCH ILI9341| SPI LCD display for Orbitz radar UI              | 1   |
 | WS2812B LED STRIP     | Internal RGB status lighting (1 m)              | 1   |
-| TP4056 LiPo charger   | Charges LiPo battery from USB-C                 | 1   |
-| MT3608 boost converter| Boosts 3.7 V LiPo to 5 V for Pi                 | 1   |
+| RTL‑SDR USB dongle    | ADS‑B receiver for local aircraft (dump1090)    | 1   |
+| USB GPS dongle (VK‑172 or similar) | Provides live GPS position via GPSD | 1   |
