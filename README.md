@@ -3,7 +3,6 @@
 <img width="1410" height="2000" alt="ORBITZ (3)" src="https://github.com/user-attachments/assets/e5b121f1-b345-42a9-9820-a517a4ea93c1" />
 
 
-
 <p align="center">
   <i>Desktop satellite, plane, and ISS tracker with a Console-style display and LED halo.</i>
 </p>
@@ -28,15 +27,11 @@ I personally love astronomy and being able to stargaze outside with the stars, b
 
 ##  3. How does it work?
 
-<p>
-The brains of the operation is a Raspberry Pi Zero 2W. 
-    It:
-
-    Fetches TLEs from CelesTrak and uses Skyfield to compute live satellite and ISS passes.
-    Reads your location from GPSD (USB GPS) or falls back to a configured location.
-    Receives live ADS‑B aircraft data either from a local RTL‑SDR + dump1090 or from the OpenSky API.
-    The display shows a radar view, the LED halo indicates visibility, and the buzzer alerts you before passes so you don’t miss them.
-</p>
+The brains of the operation is a Raspberry Pi Zero 2W. It:
+-  Fetches TLEs from CelesTrak and uses Skyfield to compute live satellite and ISS passes.
+-  Reads your location from GPSD (USB GPS) or falls back to a configured location.\
+-  Receives live ADS‑B aircraft data either from a local RTL‑SDR + dump1090 or from the OpenSky API.
+-  The display shows a radar view, the LED halo indicates visibility, and the buzzer alerts you before passes so you don’t miss them.
 
 ---
 
@@ -44,9 +39,9 @@ The brains of the operation is a Raspberry Pi Zero 2W.
 
 <p>
 You can view the full schematic for the ORBITZ PCB below.
+  </p>
   
 ![ORBITZ schematic](hardware/orbitz_schematic.svg)
-</p>
 
 ---
 
@@ -55,13 +50,14 @@ You can view the full schematic for the ORBITZ PCB below.
 <p>
 Plug it into usb c, Connect it to wifi, and it shows satellites and planes passing over your location
 using the rotary dial and the button, you can scroll through targets and select them
-
-If you plug in the USB GPS AND SDR DONGLE, Orbitz will automagically :
-use gpsd for your location
-use live ADS-B data from planes flying nearby for fully local tracking (or fall back to Opensky if no receiver is present)
 </p>
 
-Assembly:
+If you plug in the USB GPS AND SDR DONGLE, Orbitz will automagically :
+-  use gpsd for your location
+-  use live ADS-B data from planes flying nearby for fully local tracking (or fall back to Opensky if no receiver is present)
+---
+
+## 6. Assembly:
 
 1. First print the enclosure, and order all the items in the BOM.
 2. Insert heat inserts in all screw standoffs.
@@ -84,11 +80,11 @@ Below is what your fully assembled design should look like.
 
 ---
 
-## 6. Firmware
+## 7. Firmware
 
 There are two ways to run ORBITZ:
 
-### 6.1 Desktop/mock firmware (no hardware required)
+### 7.1 Desktop/mock firmware (no hardware required)
 
 This runs the radar UI in a Pygame window on any PC or Pi, using mock drivers instead of the real display, LEDs, and buttons.
 
@@ -106,7 +102,7 @@ Controls in mock mode:
 - `j` / `k` + Enter: move selection to next/previous target.
 - `q` + Enter: quit.
 
-### 6.2 Hardware firmware (Pi + PCB)
+### 7.2 Hardware firmware (Pi + PCB)
 
 On the Pi Zero 2W with the ORBITZ PCB attached:
 
@@ -116,7 +112,7 @@ On the Pi Zero 2W with the ORBITZ PCB attached:
 - The LED halo and buzzer reflect visibility/alerts.
 - GPSD and dump1090/readsb are used automatically if available.
 
-##  7. Images
+##  8. Images
 
 <table>
   <tr>
@@ -142,7 +138,7 @@ On the Pi Zero 2W with the ORBITZ PCB attached:
   </tr>
 </table>
 
-##  8. Bill of Materials (BOM)
+##  9. Bill of Materials (BOM)
 
 The full detailed BOM is included in this repository:
 
