@@ -1,0 +1,5 @@
+pygame
+skyfield
+requests
+gpsd-py3
+sgp4
