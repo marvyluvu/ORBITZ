@@ -64,7 +64,7 @@ If you plug in the USB GPS AND SDR DONGLE, Orbitz will automagically :
 3. insert battery into pcb.
 4. insert pcb into enclosure, and make sure the battery is UNDER the pcb.
 5. screw in pcb board.
-6. attach screen with screws (MAKE SURE ITS ORIENTED PROPERLY with the row of pins pointing upwards
+6. attach screen with screws (MAKE SURE ITS ORIENTED PROPERLY with the row of pins pointing upwards)
 7. insert joystick and wire to the pcb
 8. cut rgb strip to size, then stick near the top of the enclosure.
 9. wire rgb strip to pcb board.
